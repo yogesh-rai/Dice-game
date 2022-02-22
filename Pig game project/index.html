@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="player  active-player" id="player-0">
+            <span class="iconify  win-0" id="crown" data-icon="jam:crown-f"></span>
+            <div class="player-title  name-0"><h1>PLAYER 1</h1></div>
+            <div class="player-score"  id="score-0">0</div>
+            <div class="current">
+                <div>current</div>
+                <div class="current-score" id="current-0">0</div>
+            </div>
+        </section>
+
+        <section class="player" id="player-1">
+            <span class="iconify  win-1" id="crown" data-icon="jam:crown-f"></span>
+            <div class="player-title  name-1"><h1>PLAYER 2</h1></div>
+            <div class="player-score"  id="score-1">0</div>
+            <div class="current">
+                <div>current</div>
+                <div class="current-score" id="current-1">0</div>
+            </div>
+        </section>
+            <img src="dice-4.png" class="dice">
+            <button class="new-game  btn"><span class="iconify" data-icon="eos-icons:content-new"></span>new game</button>
+            <button class="dice-roll  btn"><span class="iconify" data-icon="bi:dice-3-fill"></span>roll dice</button>
+            <button class="hold  btn"><span class="iconify" data-icon="eva:download-fill"></span>hold scores</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -23,7 +23,8 @@ For example, the first player, Donald, begins a turn with a roll of 5. Donald co
 #### Live preview of the site :-
 https://yogi-dice-game.netlify.app/
 
-Screenshots :-https://yogi-dice-game.netlify.app/
+
+Screenshots :-
 
 ![ss-1](https://user-images.githubusercontent.com/69380654/155195477-049cedc4-fe09-439c-b3bc-311f6971c7c8.png)
 ![ss-2](https://user-images.githubusercontent.com/69380654/155195520-fcf922dd-d9d1-4d5d-89f9-7c72c8f59c69.png)

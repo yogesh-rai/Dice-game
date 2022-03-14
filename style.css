@@ -133,11 +133,13 @@ button{
 button:hover {
     font-weight: 700;
     color: blue;
+    cursor: pointer;
 }
 
 button:hover .iconify{
     margin-right: 20px;
     color: blue;
+    cursor: pointer;
 }
 
 .dice{
